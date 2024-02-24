@@ -1,0 +1,41 @@
+<nav class="bg-blue-700 h-20 text-center flex flex-col">
+    <ul class="flex m-6">
+      <li class="flex-1 w-64">
+        <a class="nav-link" routerLink="/nav" routerLinkActive="active" ariaCurrentWhenActive="page">HOME</a>
+      </li>
+      <li class="flex-1 w-32">
+        <a class="nav-link" routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">ABOUT US</a>
+      </li>
+      <li class="flex-1 w-32">
+        <a class="nav-link" routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">MY WORKS</a>
+      </li>
+      <li class="flex-1 w-32">
+        <a class="nav-link" routerLink="/second-component" routerLinkActive="active" ariaCurrentWhenActive="page">CONTACT ME</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <style>
+    .nav-link {
+      position: relative;
+      text-decoration: none;
+      color: white;
+      transition: all 0.3s;
+    }
+  
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      transform: scaleX(0);
+      transition: transform 0.3s;
+    }
+  
+    .nav-link:hover::after {
+      transform: scaleX(1);
+    }
+  </style>
