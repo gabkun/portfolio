@@ -6,3 +6,6 @@
     font-family: 'Fontone';
     src: url('./assets/Poppins-Regular.ttf');
   }
+body{
+  background-color: rgb(226 232 240);
+}

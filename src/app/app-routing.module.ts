@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NavComponent } from './nav/nav.component';
+import { IndexComponent } from './index/index.component';
 
 
 export const routes: Routes = [
-  {path: 'nav', component: NavComponent}
+  {path: 'nav', component: NavComponent},
+  {path: 'home', component: IndexComponent}
+
 ];
 
 @NgModule({
