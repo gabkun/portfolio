@@ -5,8 +5,10 @@ h1{
     font-weight: 500;
 }
 .paragraph{
-    margin-top: 100px;
+    margin-top: 25px;
 }
-.cards{
-    display: flex;
+.first-letter {
+    font-size: 35px;
+    font-weight: bold; /* Optionally, you can make the first letter bold */
+    
 }
